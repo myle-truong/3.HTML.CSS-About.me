@@ -115,7 +115,7 @@ body {
     color: #fff;
 }
 
-.contact img {
+.copyright img {
     width: 20px;
     margin: -5px 10px;
 }
@@ -143,8 +143,13 @@ body {
     margin-bottom: 20px;
 } */
 
+footer {
+    width: 100%;
+}
+
 .copyright {
-    width: 65%;
+    width: 70%;
+    align-content: center;
     text-align: center;
     margin-bottom: 0px;
 }
