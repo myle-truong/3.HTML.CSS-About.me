@@ -32,9 +32,9 @@ body {
     overflow-x: hidden;
 }
 
-.profile-info::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 0px;
-    /* De che dau thanh cong cu cua man hinh chia doi*/
+    /* De che dau thanh cong cu cua man hinh chia doi, okay tren chrome, ko okay tren firefox*/
 }
 
 .profile-info h1 {
@@ -126,10 +126,10 @@ footer {
 }
 
 .copyright {
-    width: 70%;
+    width: 65%;
     align-content: center;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 
