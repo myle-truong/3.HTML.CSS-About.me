@@ -34,7 +34,7 @@ body {
 
 ::-webkit-scrollbar {
     width: 0px;
-    /* De che dau thanh cong cu cua man hinh chia doi, okay tren chrome, ko okay tren firefox*/
+    /* De che dau thanh cong cu cua man hinh chia doi,*/
 }
 
 .profile-info h1 {
@@ -117,32 +117,23 @@ body {
     color: #fff;
 }
 
-.copyright img {
-    width: 20px;
-    margin: -5px 10px;
+.contact img {
+    width: 10px;
+}
+
+.contact span {
+    margin: 3%;
+}
+
+.contact {
+    margin: 5% 0 5% 25%;
+    width: 65%;
 }
 
 footer {
-    width: 100%;
-}
-
-.copyright {
     width: 65%;
-    align-content: center;
     text-align: center;
-    margin-bottom: 20px;
 }
-
-
-/*.contact span {
-    margin: 10%;
-} */
-
-
-/* .contact {
-    margin: 5% 0 5% 25%;
-    width: 65%;
-} */
 
 
 /*.contact {
