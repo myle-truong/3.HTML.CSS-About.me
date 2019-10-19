@@ -118,11 +118,11 @@ body {
 }
 
 .contact img {
-    width: 10px;
+    width: 20px;
 }
 
 .contact span {
-    margin: 3%;
+    margin: 5%;
 }
 
 .contact {
@@ -135,14 +135,26 @@ footer {
     text-align: center;
 }
 
-
-/*.contact {
-    text-align: center;
-    margin-bottom: 20px;
-} 
-
-.copyright {
-    width: 65%;
-    text-align: center;
-    margin-bottom: 20px;
-} */
+@media only screen and (max-width:1200px) {
+    .profile-info {
+        width: 100%;
+        overflow: inherit;
+    }
+    .profile-img {
+        width: 100%;
+    }
+    .expert {
+        width: 95%;
+        margin-bottom: 10%;
+    }
+    .expert img {
+        height: 8%;
+        margin: 10px 0;
+    }
+    .projects img {
+        width: 47%;
+    }
+    span {
+        font-display: block;
+    }
+}
